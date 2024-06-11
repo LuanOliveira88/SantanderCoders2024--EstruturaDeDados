@@ -1,32 +1,3 @@
-//Aqui eu reproduzi a implementação de Listas Ligadas (Linked Lists) que foi desenvolvida ao longo do curso
-// de Estruturas de Dados oferecido pelo programa Santander Coders 2024 (Backend)
-
-//Vantagens:
-//1 - Estrutura dinâmica
-//2 - Utilização de memória
-//3 - Utilizando na construção de outras estruturas
-
-//Principais Operações
-// 1 - Adicionar item:
-//      a) No início (prepend)
-//      b) No final (append)
-//      c) Em uma determinada posição (insert)
-// 2 - Ler item:
-//      a) Do início (getHead)
-//      b) Do final (getTail)
-//      c) Em uma determinada posição (get)
-// 3 - Remover Item:
-//      a) No início (removeFirst)
-//      b) No final (removeLast)
-//      c) Em uma determinada posição (delete)
-// 4 - Imprimir (print)
-
-//Operações Opcionais
-// 1 - Tamanho atual  (getLength)
-// 2 - Está vazia? (isEmpty)
-// 3 - Esvaziar lista (makeEmpty)
-
-
 package dataStructure;
 
 public class LinkedList {

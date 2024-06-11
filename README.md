@@ -6,11 +6,17 @@ implementados ao longo do curso de Introdução à Estrutura de Dados.
 O curso foi ministrado pelo instrutor João Carlos Sousa Vale e desenvolvido em Java com linguagem de programação.
 
 
+
 ## Problema: Lista de Supermercado
 
-Precisamos construir uma aplicação para
+Precisamos construir uma aplicação para registrarmos itens que estão em falta e precisam ser comprados quando irmos ao 
+supermercado. Principais operações:
 
+1. Adicionar item
+2. Listar itens presentes na lista
+3. Remover item da lista
 
+ 
 ## Listas Ligadas (Linked Lists)
 
 É um estrutura de dados dinâmica, linear e formada por nós. Cada nó é capaz de guardar uma informação e também a
@@ -25,10 +31,34 @@ de modo que (1) aponta para (2) e (2) aponta para NULL. Ou seja
 Isso vale pra novas adições.
 
 ### Principais Operações
+1. Adição de itens:
+   1. No início: `prepend`
+   2. No final: `append`
+   3. Em uma determinada posição: `insert`
+2. Leitura de itens:
+    1. No início: `getHead`
+    2. No final: `getTail`
+    3. Em uma determinada posição: `get`
+3. Remoção de itens:
+    1. No início: `removeFirst`
+    2. No final: `removeLast`
+    3. Em uma determinada posição: `delete`
+4. Imprimir: `print`
 
 ### Operações Opcionais
 
+1. Tamanho Atual: `getLength`
+2. Está vazia?: `isEmpty`
+3. Esvaziar lista: `makeEmpty`
+
 ### Principais Vantagens
+
+1. Estrutura dinâmica
+2. Utilização de memória
+3. Utilização na construção de outras estruturas
+
+
+
 ## Pilhas (Stacks)
 
 ## Filas (Queues)
