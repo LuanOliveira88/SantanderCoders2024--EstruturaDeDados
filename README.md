@@ -101,3 +101,58 @@ Podemos inferir que uma Árvore Perfeita possui, no máximo, $2^n$ no nível n. 
 - Não linear;
 - Armazenamento de informação
 - Múltiplos algoritmos de busca e travessia
+
+### Árvore Binária de Busca
+A árvore de Busca Binária é uma estrutura de dados de árvore binária, onde todos os nós da subárvore esquerda possuem 
+um valor numérico inferior ou igual ao nó raiz e todos os nós da subárvore direita possuem um valor superior ao nó raiz.
+
+### Qual a vantagem disso?
+Todo o lado direito de um determinado nó são maiores que ele e todos do lado esquerdo são menores ou iguais.
+
+#### Principais Operações
+1. Inserção de um item ``insert``
+2. Verificar se um item está presente naquela árvore ``contains``
+3. Remoção de um item ``deleteNode``
+
+
+###   Conclusão
+1. Estrutura dinâmica;
+2. Possuem regra de inserção;
+3. Utilizado para armazenamento, busca, ordenação de elementos
+
+
+## Resolvendo Problemas
+
+Na última aula foram discutidos três problemas comumente encontrados em situações de validação técnica. Os códigos 
+relacionados podem ser encontrandos no caminho
+```
+   src/main/java/problem
+```
+
+### Problema: Balanceamento de colchetes em uma expressão
+
+**Enunciado:** Data uma string de expressão ``exp``, escreva um programa para examinar se os pares e as ordens de `"{"`, 
+`"{"`, `"("`, `")"`, `"["`, `"]"` estão corretos na expressão dada.
+
+1. `2*(3+4+5*[2+3)]`
+2. `2*(3+4+5*[2+3])`
+3. `[2*(3+4+5*[2+3]/(2+(3+(7+5)*9)*6)*[5+8]+17)+2]`
+
+### Problema: Revertendo os primeiros `k` elementos de uma fila
+
+**Enunciado:** Dado um inteiro ``k`` e uma fila de inteiros, a tarefa é inverter a ordem dos primeiros `k` elementos da 
+fila, deixando os demais elementos na mesma ordem relativa.
+
+```
+[1, 2, 3, 4, 5] -> k=2 -> [2, 1, 3, 4, 5]
+```
+
+### Problema: Maior valor em cada nível da Árvore Binária
+
+**Enunciado:** Dada uma árvore binária, encontre o maior valor em cada nível.
+
+**Algoritmo:**
+1. Utilize o algoritmo BFS para percorrer a árvore e uma lista auxiliar.
+2. Para cada elemento e seu nível na árvore:
+   - Se a lista possuir o índice = nível, substitua pelo maior valor
+   - Senão adicione na lista
