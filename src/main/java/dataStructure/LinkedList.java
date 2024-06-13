@@ -15,6 +15,7 @@ public class LinkedList {
         }
     }
 
+    // construtor da classe LinkedList
     public LinkedList(String data){
         length = 1;
         Node newNode = new Node(data);
@@ -172,7 +173,6 @@ public class LinkedList {
 
 
     }
-
 
 
     public static void main(String[] args) {
