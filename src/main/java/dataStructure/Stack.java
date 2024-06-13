@@ -1,9 +1,4 @@
-//Aqui eu reproduzi a implementação de Pilha (Stack) que foi desenvolvida ao longo do curso
-// de Estruturas de Dados oferecido pelo programa Santander Coders 2024 (Backend)
-
-
-//Desafio: Implementar uma Pilha usando um Vetor (Array)
-
+//TODO: Desafio: Implementar uma Pilha usando um Vetor (Array)
 
 package dataStructure;
 
@@ -72,7 +67,6 @@ public class Stack {
         height--;
 
         return temp;
-
     }
 
 
@@ -87,6 +81,7 @@ public class Stack {
         System.out.println(myStack.pop().value);
         System.out.println(myStack.pop().value);
         System.out.println(myStack.pop());
+
     }
 
 
